@@ -25,10 +25,10 @@
     "license": "MIT",
     "main": "./source/index.js",
     "name": "openid-provider-metadata",
-    "types": "./dist/node/index.d.ts",
+    "types": "./source/index.d.ts",
     "version": "1.0.0",
     "devDependencies": {
-        "@types/json-schema": "^7.0.5",
+        "@types/json-schema": "^7.0.6",
         "json-schema-to-typescript": "^9.1.1"
     }
 }
