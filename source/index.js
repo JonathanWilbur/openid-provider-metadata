@@ -411,6 +411,12 @@ var schema = {
                 + "terms of service. The registration process SHOULD display "
                 + "this URL to the person registering the Client if it is "
                 + "given."
+        },
+        end_session_endpoint: {
+            type: "string",
+            // format: "uri",
+            minLength: 3,
+            maxLength: 2048
         }
     }
 };

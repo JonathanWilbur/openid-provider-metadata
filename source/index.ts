@@ -446,6 +446,12 @@ const schema: JSONSchema6 = {
                 + "this URL to the person registering the Client if it is "
                 + "given.",
         },
+        end_session_endpoint: {
+            type: "string",
+            // format: "uri",
+            minLength: 3,
+            maxLength: 2048,
+        },
     },
 };
 

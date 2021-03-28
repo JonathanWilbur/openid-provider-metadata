@@ -149,5 +149,6 @@ export interface OpenIDProviderMetadata {
    * URL that the OpenID Provider provides to the person registering the Client to read about OpenID Provider's terms of service. The registration process SHOULD display this URL to the person registering the Client if it is given.
    */
   op_tos_uri?: string;
+  end_session_endpoint?: string;
   [k: string]: unknown;
 }

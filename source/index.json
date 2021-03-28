@@ -294,6 +294,11 @@
             "minLength": 3,
             "maxLength": 2048,
             "description": "URL that the OpenID Provider provides to the person registering the Client to read about OpenID Provider's terms of service. The registration process SHOULD display this URL to the person registering the Client if it is given."
+        },
+        "end_session_endpoint": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 2048
         }
     }
 }
